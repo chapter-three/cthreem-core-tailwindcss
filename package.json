@@ -25,6 +25,7 @@
     "gulp-strip-comments": "^2.5.2",
     "gulp-stylelint": "^7.0.0",
     "perfectionist": "^2.4.0",
+    "postcss-easy-import": "^3.0.0",
     "postcss-preset-env": "^5.2.1",
     "precss": "^3.1.2",
     "stylelint": "^9.3.0",

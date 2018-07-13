@@ -3,6 +3,7 @@ const del              = require('del');
 const gulpif           = require('gulp-if');
 const perfectionist    = require('perfectionist');
 const postcss          = require('gulp-postcss');
+const postcssImport    = require('postcss-easy-import');
 const postcssPresetEnv = require('postcss-preset-env');
 const precss           = require('precss');
 const rename           = require('gulp-rename');
@@ -25,6 +26,7 @@ function twCompile() {
   return gulp.src(config.src)
     .pipe(sourcemaps.init())
     .pipe(postcss([
+      postcssImport(),
       tailwindcss(config.twConfig),
       postcssPresetEnv(),
       precss(),
