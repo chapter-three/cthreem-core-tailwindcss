@@ -1,0 +1,34 @@
+{
+  "name": "cthreem-core-tailwindcss",
+  "version": "1.0.0",
+  "description": "CThreem Core plugin for the Tailwind CSS framework.",
+  "main": "index.js",
+  "author": {
+    "name": "Chapter Three",
+    "url": "https://www.chapterthree.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chapter-three/cthreem-core-tailwindcss"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chapter-three/cthreem-core-tailwindcss/issues"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "del": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-stylelint": "^7.0.0",
+    "perfectionist": "^2.4.0",
+    "postcss-preset-env": "^5.2.1",
+    "precss": "^3.1.2",
+    "stylelint": "^9.3.0",
+    "tailwindcss": "^0.6.3"
+  },
+  "devDependencies": {}
+}
