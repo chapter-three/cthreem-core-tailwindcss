@@ -1,6 +1,6 @@
 {
   "name": "cthreem-core-tailwindcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CThreem Core plugin for the Tailwind CSS framework.",
   "main": "index.js",
   "author": {
